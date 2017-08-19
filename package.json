@@ -1,13 +1,14 @@
 {
   "private": true,
   "scripts": {
-    "start": ""
+    "start": "gulp",
+    "production": "gulp production"
   },
   "devDependencies": {
     "browser-sync": "^2.18.12",
     "gulp": "^3.9.1",
     "gulp-htmlmin": "^3.0.0",
     "gulp-uncss": "^1.0.6",
-    "xvx": "^3.6.0"
+    "hotlinecss": "^3.9.0"
   }
 }
